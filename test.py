@@ -109,7 +109,30 @@ has_high_income = False
 has_good_credit =False
 if has_high_income or has_good_credit:
     print("eligible for loan")
-    
+#lets build a car game#
+print(" start, stop, help, quit")
+command = ""
+started = False
+while command != "quit":
+    command =input("> ").lower()
+    if command =="start":
+        if started:
+            print(" car already started")
+        else:
+            started=True
+            print("car started .... go")
+    elif command == "stop":
+        print("car stopped.")
+    elif command =="help":
+        print("""
+start - to start the car
+stop - to stop the car 
+quit- to exit""")
+    elif command == "quit":
+        break
+
+    else:
+        print(" i donot  understand ypur language")
 
 
     
