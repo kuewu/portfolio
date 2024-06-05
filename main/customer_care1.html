@@ -12,6 +12,30 @@
             background-size: cover;
             background-attachment: fixed;
         }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111111;
+        }
     </style>
 
     <title>Welcome</title>
@@ -114,25 +138,32 @@
     </section>
     <!-- floating images-->
 
-    <body>
-        <p>
-        <section
-            src="https://images.unsplash.com/photo-1717295248358-4b8f2c8989d6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8.gif"
-            alt="Smiley face" style="float:right;width:200px;height:200px;"> A paragraph with a floating image. A
-            paragraph with a floating image. A paragraph with a floating image.
 
-        </section>
-        <!-- let make an image map-->
-        <section>
-            <img src="https://images.unsplash.com/photo-1715313676060-43e777f5ed48?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHx8"
-                alt="rivers" usemap="#rivers" style="height: 200;" width="200" title="read me">
-            <map name="rivers">
+    <p>
+    <section
+        src="https://images.unsplash.com/photo-1717295248358-4b8f2c8989d6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8.gif"
+        alt="Smiley face" style="float:right;width:200px;height:200px;"> A paragraph with a floating image. A paragraph
+        with a floating image. A paragraph with a floating image.
 
-                < shape="default" coords="20,50,60" alt="girl" href="girl.html">
-                    <area shape="default" coords="20,50,60" alt="girl" href="rock.html">
-                    <section shape="default" coords="20,50,60" alt="girl" href="water.html">
+    </section>
+    <!-- let make an image map-->
+    <section>
+        <img src="https://images.unsplash.com/photo-1715313676060-43e777f5ed48?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHx8"
+            alt="rivers" usemap="#rivers" style="height: 200;" width="200" title="read me">
+        <map name="rivers">
 
-                    </section>
-    </body>
+            < shape="default" coords="20,50,60" alt="girl" href="girl.html">
+                <html shape="default" coords="20,50,60" alt="girl" href="rock.html">
 
-    </html>
+                <body shape="default" coords="20,50,60" alt="girl" href="water.html">
+                    <!-- navigation bar-->
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+
+                </body>
+
+                </html>
