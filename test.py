@@ -133,10 +133,14 @@ while command != "quit":
 
     ## print(" i donot  understand ypur language")"""
 
-numbers = int(input("enter to number: "))
-while numbers !=45:
-    numbers =+1
-    print
+numbers = 0
+while numbers !=546:
+    numbers = int(input("enter a number: "))
+    if numbers > 0:
+        numbers = numbers+1
+        print(numbers)
+    else:
+        print("i dont know")
 
 
     
