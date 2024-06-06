@@ -134,9 +134,10 @@ while command != "quit":
     ## print(" i donot  understand ypur language")"""
 
 numbers = ""
-while numbers >=546:
-    numbers = int(input("enter a number: "))
-    if numbers > 0:
+while numbers == 57:
+    numbers =input("enter a number: ")
+    numbers = int(numbers)
+    if numbers != 0:
         numbers = numbers+1
         print(numbers)
     else:
