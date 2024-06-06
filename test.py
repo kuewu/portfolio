@@ -135,10 +135,10 @@ while command != "quit":
 
 numbers = 0
 numbers = int(input('enter a number: '))
-print(numbers)
+
 while numbers <=675:
     numbers  = numbers+ 1
-    
+    print(numbers)
 
 name = input("enter your name:  ")
 print (len(name))
