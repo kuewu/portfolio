@@ -136,10 +136,10 @@ while command != "quit":
 numbers = 0
 while numbers <=67 :
     numbers = int(input('enter a number: '))
-    
+    print(numbers)
     if numbers != 0:
-        print(numbers)
-        numbers = numbers+1
+       numbers = numbers+1
+       print(numbers)
     else:
         print("i dont know")
 
