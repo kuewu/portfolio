@@ -1,6 +1,6 @@
 import math
 
-birth_year =input("bith year: ")
+"""birth_year =input("bith year: ")
 print(type(birth_year))
 age = 2019 - int(birth_year)
 print(type(age))
@@ -125,14 +125,18 @@ while command != "quit":
         print("car stopped.")
     elif command =="help":
         print("""
-start - to start the car
-stop - to stop the car 
-quit- to exit""")
-    elif command == "quit":
-        break
+#start - to start the car
+#stop - to stop the car 
+#quit- to exit""")
+    #elif command == "quit":
+        #break
 
-    else:
-        print(" i donot  understand ypur language")
+    ## print(" i donot  understand ypur language")"""
+
+numbers = int(input("enter to number: "))
+while numbers !=45:
+    numbers =+1
+    print
 
 
     
