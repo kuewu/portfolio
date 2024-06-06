@@ -133,7 +133,7 @@ while command != "quit":
 
     ## print(" i donot  understand ypur language")"""
 
-numbers = ""
+numbers = 555
 while numbers == 57:
     numbers =input("enter a number: ")
     numbers = int(numbers)
