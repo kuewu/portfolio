@@ -135,7 +135,7 @@ while command != "quit":
 
 numbers = 555
 while numbers == 57:
-    numbers =input("enter a number: ")
+    numbers =print (input('enter a number: '))
     numbers = int(numbers)
     if numbers != 0:
         numbers = numbers+1
