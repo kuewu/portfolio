@@ -134,14 +134,25 @@ while command != "quit":
     ## print(" i donot  understand ypur language")"""
 
 numbers = 555
-while numbers == 57:
-    numbers =print (input('enter a number: '))
-    numbers = int(numbers)
+while numbers > 57:
+    numbers = int(input('enter a number: '))
+    
     if numbers != 0:
         numbers = numbers+1
         print(numbers)
     else:
         print("i dont know")
+
+
+
+name = input("enter your name:  ")
+print (len(name))
+if len(name) > 3:
+    print("name too short")
+elif  len(name) > 50:
+    print("name too long")
+else:
+    print("nice name")
 
 
     
