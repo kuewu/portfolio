@@ -147,7 +147,7 @@ while numbers > 57:
 
 name = input("enter your name:  ")
 print (len(name))
-if len(name) > 3:
+if len(name) < 3:
     print("name too short")
 elif  len(name) > 50:
     print("name too long")
