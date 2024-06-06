@@ -137,9 +137,9 @@ numbers = 555
 while numbers > 57:
     numbers = int(input('enter a number: '))
     
-    if numbers != 0:
-        numbers = numbers+1
+    if numbers <= 0:
         print(numbers)
+        numbers = numbers+1
     else:
         print("i dont know")
 
