@@ -141,10 +141,14 @@ while numbers <=675:
     print(numbers)
 
 name = input("enter your name:  ")
+name_count =0
 print (len(name))
-if len(name) < 3:
+name_lim = 6
+while name_count  < name_lim:
+  name_count+=1
+  if len(name) < 3:
     print("name too short")
-elif  len(name) > 50:
+  elif  len(name) > 50:
     print("name too long")
 else:
     print("nice name")
