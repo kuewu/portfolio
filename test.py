@@ -141,14 +141,10 @@ while numbers <=675:
     print(numbers)
 
 name = input("enter your name:  ")
-name_count =0
 print (len(name))
-name_lim = 6
-while name_count  < name_lim:
-  name_count+=1
-  if len(name) < 3:
+if len(name) < 3:
     print("name too short")
-  elif  len(name) > 50:
+elif  len(name) > 50:
     print("name too long")
 else:
     print("nice name")
@@ -157,7 +153,7 @@ else:
 secret_number = 15
 guess_count = 0
 guess_limit = 3
-while guess_count < guess_limit :
+while guess_count < 3 :
  guess = int(input("guess: "))
  guess_count+= 1
  if guess == secret_number:
