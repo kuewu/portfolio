@@ -151,9 +151,10 @@ else:
 
 
 secret_number = 15
-guess = int(input("guess: "))
-guess = 0
-while guess < 3 :
+guess_count = 0
+while guess_count < 3 :
+ guess = int(input("guess: "))
+ guess_count+= 1
  if guess != secret_number:
     print("you failed")
     break
