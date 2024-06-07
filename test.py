@@ -151,8 +151,9 @@ else:
 
 
 secret_number = 15
+guess = int(input("guess: "))
 while guess != secret_number:
-   guess = int(input("guess: "))
+   
    print("you failed")
 else:
     print("you won")
