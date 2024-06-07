@@ -150,6 +150,16 @@ else:
     print("nice name")
 
 
+secret_number = 15
+while guess != secret_number:
+   guess = int(input("guess: "))
+   print("you failed")
+else:
+    print("you won")
+
+
+
+
     
     
 
