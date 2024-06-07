@@ -152,14 +152,15 @@ else:
 
 secret_number = 15
 guess_count = 0
-while guess_count < 3 :
+guess_limit = 3
+while guess_count < guess_limit :
  guess = int(input("guess: "))
  guess_count+= 1
- if guess != secret_number:
-    print("you failed")
+ if guess == secret_number:
+    print("you won")
     break
 else:
-        print("you won")
+        print("you failed")
 
 
 
