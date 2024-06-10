@@ -167,12 +167,13 @@ for item in ['python' ,'uwaytcyd' ,'saduftrcuyuk' ]:
     print(item)
 for me in  range(5,13,2):
     print(me)
-for prices in[10, 20, 30]:
-    item_name = print("enter the name of the good you want to calculate: ").lower()
-    num_item =int (print("shop coordinator, Please enter the number of good: "))
 shoes = True
 Bags = True
 Books = True
+for prices in[10, 20, 30]:
+    item_name = (input("enter the name of the good you want to calculate: "))
+    num_item =int (input("shop coordinator, Please enter the number of good: "))
+
 if item_name == shoes:
     print( {num_item * [0]})
 elif item_name == Bags:
