@@ -173,11 +173,12 @@ Books = True
 for prices in[10, 20, 30]:
     item_name = (input("enter the name of the good you want to calculate: "))
     num_item =int (input("shop coordinator, Please enter the number of good: "))
-    if item_name == shoes:
-        print( {num_item * [0]})
-    elif item_name == Bags:
-        print({num_item * [1]})
-    elif item_name == Books:
+    while item_name != num_item:
+     if item_name == shoes:
+        print(num_item * [0])
+     elif item_name == Bags:
+        print(num_item * [1])
+     elif item_name == Books:
         print(num_item * [2])
 else:
     print("We do not sell such items")
