@@ -133,7 +133,7 @@ while command != "quit":
 
     ## print(" i donot  understand ypur language")"""
 
-numbers = 0
+"""numbers = 0
 numbers = int(input('enter a number: '))
 
 while numbers <=675:
@@ -150,6 +150,7 @@ else:
     print("nice name")
 
 
+
 secret_number = 15
 guess_count = 0
 guess_limit = 3
@@ -160,7 +161,27 @@ while guess_count < 3 :
     print("you won")
     break
 else:
-        print("you failed")
+        print("you failed")"""
+#lets learn about the for loop
+for item in ['python' ,'uwaytcyd' ,'saduftrcuyuk' ]:
+    print(item)
+for me in  range(5,13,2):
+    print(me)
+for prices in[10, 20, 30]:
+    item_name = print("enter the name of the good you want to calculate: ").lower()
+    num_item =int (print("shop coordinator, Please enter the number of good: "))
+shoes = True
+Bags = True
+Books = True
+if item_name == shoes:
+    print( {num_item * [0]})
+elif item_name == Bags:
+    print({num_item * [1]})
+elif item_name == Books:
+    print(num_item * [2])
+else:
+    print("We do not sell such items")
+    
 
 
 
