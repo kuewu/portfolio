@@ -167,21 +167,24 @@ for item in ['python' ,'uwaytcyd' ,'saduftrcuyuk' ]:
     print(item)
 for me in  range(5,13,2):
     print(me)
-shoes = True
-Bags = True
-Books = True
-for prices in[10, 20, 30]:
-    item_name = (input("enter the name of the good you want to calculate: "))
-    num_item =int (input("shop coordinator, Please enter the number of good: "))
-    while item_name != num_item:
-     if item_name == shoes:
-        print(num_item * [0])
-     elif item_name == Bags:
-        print(num_item * [1])
-     elif item_name == Books:
-        print(num_item * [2])
+for goods in['Shoes' , 'bags', 'books']:
+ prices =[10, 20, 30]
+item_name = (input("enter the name of the good you want to calculate: ")).lower()
+while item_name != goods[3]:
+    print(   
+     if item_name == goods[0]:
+        num_item =int (input("shop coordinator, Please enter the number of good: "))
+        print(num_item * prices [0])
+    elif item_name == goods[1]:
+        num_item =int (input("shop coordinator, Please enter the number of good: "))
+        print(num_item * prices[1])
+    elif item_name == goods[2]:
+        num_item =int (input("shop coordinator, Please enter the number of good: "))
+        print(num_item * prices[2])
+        
 else:
-    print("We do not sell such items")
+    print("We do not sell such items"))
+    
     
 
 
