@@ -6,6 +6,8 @@
         div {
             width: 300px;
             margin: auto;
+            display: grid;
+            grid-template-columns: 33%;
         }
     </STYle>
 
@@ -20,6 +22,15 @@
         </div>
         <span>hello worla</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         <div>I AM A DIV</div> magni cum illo excepturi velit ex quidem, quas fuga, tempore nihil nostrum! Velit, perspiciatis. Placeat ad ipsum sequi autem est animi.
+
+        <script>
+            function myFunction() {
+                var x = document.getElementsByClassName("city");
+                for (var i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+            }
+        </script>
 
     </body>
 
