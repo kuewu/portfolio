@@ -28,3 +28,9 @@ q = 5
 r = "alii"
 print(type(q))
 print(type(r))
+
+
+s, t, u = "pamela", "Aunty", "Madam" 
+print(s)
+print(t)
+print(u)
