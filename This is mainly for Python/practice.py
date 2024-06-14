@@ -30,6 +30,7 @@ print(type(q))
 print(type(r))
 
 
+
 s, t, u = "pamela", "Aunty", "Madam" 
 print(s)
 print(t)
@@ -48,5 +49,11 @@ racheal = student(name = "racheal", age= 16, year ="1983")"""
 fruits = ["apple", "orange", "banana"]
 p, j, k = fruits
 print(p, j, k)
+print(n+q)
 
 
+# Global variable
+Word = "Awesome"
+def myfunc():
+    print("python is "+Word)
+myfunc()
