@@ -34,3 +34,13 @@ s, t, u = "pamela", "Aunty", "Madam"
 print(s)
 print(t)
 print(u)
+
+class student:
+    name = str
+    age = int
+    year = str
+
+pamela = student(name = "pamela", age= 16, year ="1983")
+kuewu = student(name = "kuewu", age= 16 ,year ="1983")
+john = student(name = "john", age= 16 ,year ="1983")
+racheal = student(name = "racheal", age= 16, year ="1983")
