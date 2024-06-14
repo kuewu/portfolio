@@ -35,7 +35,7 @@ print(s)
 print(t)
 print(u)
 
-class student:
+"""class student:
     name = str
     age = int
     year = str
@@ -43,4 +43,10 @@ class student:
 pamela = student(name = "pamela", age= 16, year ="1983")
 kuewu = student(name = "kuewu", age= 16 ,year ="1983")
 john = student(name = "john", age= 16 ,year ="1983")
-racheal = student(name = "racheal", age= 16, year ="1983")
+racheal = student(name = "racheal", age= 16, year ="1983")"""
+
+fruits = ["apple", "orange", "banana"]
+p, j, k = fruits
+print(p, j, k)
+
+
