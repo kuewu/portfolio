@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
     body {
-        background-color: gray;
+        background-color: rgb(254, 205, 205);
         width: 600 px;
         height: 600 px;
         background-repeat: no-repeat;
@@ -45,6 +45,14 @@
         background-color: black;
     }
 
+    .image-container {
+        display: flex;
+        justify-content: left;
+        gap: 10%;
+        width: 450px;
+        height: 400px;
+    }
+
     img {
         padding: 0%;
     }
@@ -55,19 +63,14 @@
     }
 
     .image1 {
-        height: 40px;
         position: relative;
         flex-grow: dir="#111111";
     }
 
     .image2 {
         float: right;
-        offset-distance: 3%;
-        height: 40px;
         position: relative;
         flex-grow: dir="#111111";
-        justify-content: center;
-        align-content: center;
     }
 </style>
 
@@ -96,15 +99,19 @@
 
 
     <!-- Time to start some designs-->
-    <div class="image1">
-        <img src="https://media.istockphoto.com/id/1128887915/photo/afro-senior-man-business-owner-employee-at-supermarket.webp?b=1&s=170667a&w=0&k=20&c=S7_ADX-7By1OWanupgBdq1BnP5UhIIQD9u-L4vnV92k="
-            alt="Shoping" title=" You are Warmly Welcome" style="height: 400px; width: 450px;" border="2"
-            loading="lazy">
-    </div>
+    <div class="image-container">
 
-    <div class="image2">
-        <img src="https://media.istockphoto.com/id/1486055037/photo/a-supermarket-aisle-filled-with-food-items.webp?b=1&s=170667a&w=0&k=20&c=nyOurGbQnm2p8ReW5HeYDvVejSShgvwu8MppYEW_guE="
-            alt="description" title=" Get Something For Yourself" style="height: 400px; width: 450px;" border="2">
+
+        <div class="image1">
+            <img src="https://media.istockphoto.com/id/1128887915/photo/afro-senior-man-business-owner-employee-at-supermarket.webp?b=1&s=170667a&w=0&k=20&c=S7_ADX-7By1OWanupgBdq1BnP5UhIIQD9u-L4vnV92k="
+                alt="Shoping" title=" You are Warmly Welcome" style="height: 400px; width: 450px;" border="2"
+                loading="lazy">
+        </div>
+
+        <div class="image2">
+            <img src="https://media.istockphoto.com/id/1486055037/photo/a-supermarket-aisle-filled-with-food-items.webp?b=1&s=170667a&w=0&k=20&c=nyOurGbQnm2p8ReW5HeYDvVejSShgvwu8MppYEW_guE="
+                alt="description" title=" Get Something For Yourself" style="height: 400px; width: 450px;" border="2">
+        </div>
     </div>
 
 
