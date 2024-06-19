@@ -21,3 +21,7 @@ print(c)
 
 import random
 print(random.randrange(1,50))
+
+#looping through a string
+for m in "banana":
+    print(m)
