@@ -53,7 +53,13 @@ print(n+q)
 
 
 # Global variable
-Word = "Awesome"
-def myfunc():
-    print("python is "+Word)
-myfunc()
+###myfunc()
+
+# another example
+true = "my own"
+
+def myfunction():
+    true = "not mine."
+    print("python is " + true)
+myfunction()
+print("python is " + true)
