@@ -83,8 +83,16 @@
             display: grid;
             grid-template-columns: 33%;
         }
+
+        .yellow {
+            background-color: yellow;
+        }
     </STYle>
 </head>
+
+
+
+
 
 <body>
     <header>
@@ -152,6 +160,29 @@
         <input type="submit" value="submit">
     </form>
 
+
+
+    <!-- Lets practice js in HTML-->
+    <h2>What Can JavaScript Do?</h2>
+    <p>JavaScript can change HTML attribute values.</p>
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+
+    <button class="yellow"
+        onclick="document.getElementById('myImage').src='https://images.unsplash.com/photo-1529310399831-ed472b81d589?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVsYnxlbnwwfHwwfHx8MA%3D%3D'">Turn
+        on the light </button>
+    <img id="myImage"
+        src="https://images.unsplash.com/photo-1529310399831-ed472b81d589?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVsYnxlbnwwfHwwfHx8MA%3D%3D"
+        style="width: 100px;">
+
+    <button
+        onclick="document.getElementById('myImage').src='https://images.unsplash.com/photo-1529310399831-ed472b81d589?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVsYnxlbnwwfHwwfHx8MA%3D%3D'">
+        Turn off the light</button>
+
+    <!-- What can javaascript do?-->
+    <p id="demo">JavaScript can change HTML content. </p>
+    <button type="button" onclick='document.getElementById("demo").style.fontSize="35px".innerHTML="hello javascript"'>
+        click me</button>
 </body>
 
 </html>
