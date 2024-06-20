@@ -1,6 +1,6 @@
 // lets add variables
 // Variables const. let
-let name = "pamela Kuewu"
+let name = "pamela Kuewu";
 const age = 20
 const student = false
 name = "mummyyy"
@@ -23,3 +23,6 @@ console.log(mulAandB % sumAandB);
 //string 
 //boolean
 //number
+//function myfunction() {
+// document.getElementById("demo").innerHTML = "helo dolly!";
+//}
