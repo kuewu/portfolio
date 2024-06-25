@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cmath>
 
 using namespace std;
 
@@ -42,10 +43,17 @@ cout<<full_name<<endl;
 
 
 string ful_name = first_name.append(second_name);
-cout<<ful_name;
+cout<<ful_name<<endl;
 
 //lets check the string length
 string nam = "eycgwafcisfffs";
-cout<< nam.length();
+cout<< nam.length()<<endl;
+cout<< nam[ nam.length() - 1]<<endl;
+
+//lets do maths
+cout<< sqrt(64);
+cout<< round(2.6);
+cout<< log(2);
+
     return 0;
 }
