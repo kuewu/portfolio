@@ -53,7 +53,59 @@ cout<< nam[ nam.length() - 1]<<endl;
 //lets do maths
 cout<< sqrt(64);
 cout<< round(2.6);
-cout<< log(2);
+cout<< log(2)<<endl;
+
+
+//lets do the if conditions
+if (20 == 18) {
+    cout << "20 is greater than 18"<<endl;
+}
+else{
+    cout<< "mmmmm"<<endl;
+}
+
+
+
+// ANOTHER
+
+int time;
+
+if (time < 18){
+    cout<<"enter a number: "<<endl;
+        cin>>time;
+    cout << "good day."<<endl;
+}
+else{
+    cout<< "good evening"<<endl;
+}
+
+
+//ANOTHER
+int remind;
+int money;
+if ((remind && money)== 20){
+    cout<< "enter a number: "<<endl;
+    cin>>remind;
+
+cout<<"good"<<endl;
+}
+else if (remind || money ) {
+         cout<< "enter a number: "<<endl;
+    cin>>money;
+    cout << "bad" <<endl;
+}
+else {
+    cout<< "oohh";
+}
+
+//ANOTHER WAY OF WRITING IF ELSE STATEMENTS, USING THE TERNARY CONDITIONS
+int really;
+cout<< "enter a number: " <<endl;
+cin>>really;
+string results = (really != 40)? "good day" : "good evening.";
+cout<<results<<endl;
+
+
 
     return 0;
 }
