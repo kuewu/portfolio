@@ -1,2 +1,1 @@
-const car = 4
-console.log(car)
+let name = "pamela"
