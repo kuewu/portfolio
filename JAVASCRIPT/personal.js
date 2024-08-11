@@ -1,1 +1,2 @@
-let name = "pamela"
+let mine = 'pamela';
+console.log(mine);
