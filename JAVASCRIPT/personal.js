@@ -1,2 +1,2 @@
-let mine = 'pamela';
-console.log(mine);
+const car = 4
+console.log(car)
